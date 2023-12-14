@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  padding: 16px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none; /* To remove the default link underline */
+  color: inherit; /* Inherit the color from the parent */
+}
+
+.wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardTextContent {
+  margin-top: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: #cf4a4a;
+}
+
+.coordinates {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #cf4a4a;
+}
